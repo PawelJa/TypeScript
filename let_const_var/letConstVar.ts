@@ -28,3 +28,5 @@ class LetConstVar{
 
 let example = new LetConstVar();
 example.printNumber();
+example.checkIf();
+example.showConst();

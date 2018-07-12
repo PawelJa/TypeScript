@@ -17,7 +17,13 @@ var LetConstVar = /** @class */ (function () {
         }
         console.log(b);
     };
+    LetConstVar.prototype.showConst = function () {
+        var num = 100;
+        console.log(num);
+    };
     return LetConstVar;
 }());
 var example = new LetConstVar();
 example.printNumber();
+example.checkIf();
+example.showConst();
